@@ -1,0 +1,22 @@
+{
+  "name": "CMDataSource",
+  "version": "0.1.0",
+  "summary": "A short description of CMDataSource.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CloyMonisVMax/CMDataSource",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CloyMonisVMax": "cloymonis1991@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/CloyMonisVMax/CMDataSource.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CMDataSource/Classes/**/*"
+}

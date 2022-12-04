@@ -1,0 +1,16 @@
+PODS:
+  - CMDataSource (0.1.0)
+
+DEPENDENCIES:
+  - CMDataSource (from `../`)
+
+EXTERNAL SOURCES:
+  CMDataSource:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CMDataSource: 05af3bd3fbfa3f500de1bc59af66df1a266a7393
+
+PODFILE CHECKSUM: 05707a2b4cfeffb9ea518e584e0d7a2679ac616c
+
+COCOAPODS: 1.11.3

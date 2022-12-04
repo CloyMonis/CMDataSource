@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G83" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Comic" representedClassName="Comic" syncable="YES">
+        <attribute name="heroID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Events" representedClassName="Events" syncable="YES">
+        <attribute name="heroID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Resources" representedClassName="Resources" syncable="YES">
+        <attribute name="heroID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="resourceUrl" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Series" representedClassName="Series" syncable="YES">
+        <attribute name="heroID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Stories" representedClassName="Stories" syncable="YES">
+        <attribute name="heroID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SuperHero" representedClassName="SuperHero" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String"/>
+        <attribute name="isBookmarked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="key" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Comic" positionX="-9" positionY="54" width="128" height="59"/>
+        <element name="Events" positionX="36" positionY="126" width="128" height="59"/>
+        <element name="Resources" positionX="45" positionY="135" width="128" height="74"/>
+        <element name="Series" positionX="45" positionY="126" width="128" height="59"/>
+        <element name="Stories" positionX="72" positionY="153" width="128" height="74"/>
+        <element name="SuperHero" positionX="-9" positionY="36" width="128" height="119"/>
+    </elements>
+</model>

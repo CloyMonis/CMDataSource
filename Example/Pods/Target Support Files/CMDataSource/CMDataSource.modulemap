@@ -1,0 +1,6 @@
+framework module CMDataSource {
+  umbrella header "CMDataSource-umbrella.h"
+
+  export *
+  module * { export * }
+}
